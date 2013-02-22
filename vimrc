@@ -181,9 +181,9 @@ function! s:Median(nums)
 endfunction
 
 "indent settings
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 set autoindent
 
@@ -238,11 +238,11 @@ if has("gui_running")
     if has("gui_gnome")
         set term=gnome-256color
         colorscheme molokai
-        set guifont=Monospace\ Bold\ 12
+        set guifont=Monospace\ Bold\ 16
     endif
 
     if has("gui_mac") || has("gui_macvim")
-        set guifont=Menlo:h14
+        set guifont=Menlo:h16
         set transparency=7
     endif
 
