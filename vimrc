@@ -450,3 +450,8 @@ inoremap <Esc>D <left>
 if has("balloon_eval")
   set noballooneval
 endif
+
+" myself config
+nmap grep :Ack
+nmap ,k :Ack <cword><ENTER>
+nmap find :FufCoverageFile!
