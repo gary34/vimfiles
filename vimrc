@@ -452,6 +452,11 @@ if has("balloon_eval")
 endif
 
 " myself config
-nmap grep :Ack
-nmap ,k :Ack <cword><ENTER>
-nmap find :FufCoverageFile!
+nnoremap grep :Ack
+nnoremap ,k :Ack <cword><ENTER>
+nnoremap find :FufCoverageFile!
+nnoremap <silent> <F8> :TlistToggle<CR>
+
+" tlist variable set
+let Tlist_Show_One_File=1
+let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
