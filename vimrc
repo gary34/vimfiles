@@ -454,7 +454,7 @@ endif
 " myself config
 nnoremap grep :Ack
 nnoremap ,k :Ack <cword><ENTER>
-nnoremap find :FufCoverageFile!
+nnoremap find :FufCoverageFile
 nnoremap <silent> <F8> :TlistToggle<CR>
 
 " tlist variable set
