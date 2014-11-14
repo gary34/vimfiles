@@ -455,12 +455,12 @@ endif
 nnoremap grep :Ack
 nnoremap ,k :Ack <cword><ENTER>
 nnoremap find :FufCoverageFile
-nnoremap <silent> <F8> :TlistToggle<CR>
+"nnoremap <silent> <F8> :TlistToggle<CR>
 
 " tlist variable set
-let Tlist_Show_One_File=1
-let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
-
+"let Tlist_Show_One_File=1
+"let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
+nnoremap <silent> <F8> :TagbarToggle<CR>
 " add golang plugin
 filetype plugin indent on
 syntax on
